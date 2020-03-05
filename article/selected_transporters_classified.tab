@@ -1,14 +1,14 @@
 transporter	substrate_category	type	name	abbreviation
-T1068	AA peptide	2a	cyclic peptide transporter	AA-PEP
-T534	AA peptide	2a	lao: LAO/AO transport	AA-PEP
-T52	AA peptide	2a	livcs: branched-chain amino acid transport	AA-PEP
-T37	AA peptide	2a	potA: polyamine ABC transporter	AA-PEP
-T42	AA peptide	3a	proV: glycine betaine/L-proline	AA-PEP
-T32	AA peptide	2a	small oligopeptide transporter	AA-PEP
-T7	AA peptide	2a	sodium/proline symporter	AA-PEP
-T71	AA peptide	2a	yjdL_sub1_fam: amino acid/peptide transporter	AA-PEP
+T1068	AA peptide + NH4+	2a	cyclic peptide transporter	AA-PEP
+T534	AA peptide + NH4+	2a	lao: LAO/AO transport	AA-PEP
+T52	AA peptide + NH4+	2a	livcs: branched-chain amino acid transport	AA-PEP
+T37	AA peptide + NH4+	2a	potA: polyamine ABC transporter	AA-PEP
+T42	AA peptide + NH4+	3a	proV: glycine betaine/L-proline	AA-PEP
+T32	AA peptide + NH4+	2a	small oligopeptide transporter	AA-PEP
+T7	AA peptide + NH4+	2a	sodium/proline symporter	AA-PEP
+T71	AA peptide + NH4+	2a	yjdL_sub1_fam: amino acid/peptide transporter	AA-PEP
 T56	Anions	2a	dass: divalent anion:Na+ symporter	ANI
-T72	Anions	3a	mod: molybdate ABC transporter	ANI
+T72	Metal	3a	mod: molybdate ABC transporter	MET
 T18	Anions	3a	sulfate ABC transporter	ANI
 T54	Anions	2a	sulP: sulfate permease	ANI
 T5	Carbohydrate	2a	dctM: TRAP transporter	CARB
@@ -24,26 +24,26 @@ T761	Carbohydrate	2a	TRAP_TAXI: TRAP transporter	CARB
 T12	Cations	2a	cation transport protein	CAT
 T84	Cations	2a	cation:proton antiporter-2	CAT
 T758	Cations	3a	cbiO: cobalt ABC transporter	CAT
-T35	Cations	2a	CDF: cation transporter	CAT
-T66	Cations	3a	cobalt ECF transporter	CAT
-T68	Cations	1a	corA: magnesium and cobalt transport	CAT
+T35	Metal	2a	CDF: cation transporter	MET
+T66	Metal	3a	cobalt ECF transporter	MET
+T68	Metal	1a	corA: magnesium and cobalt transport	MET
 T27	Cations	9a	feoB: ferrous iron transport	CAT
-T724	Cations	1a	mgtE: magnesium transporter	CAT
+T724	Metal	1a	mgtE: magnesium transporter	MET
 T19	Cations	2a	multicomponent Na+:H+ antiporter	CAT
 T901	Phosphate	2a	Na/Pi-cotransporter	PI
 T728	Cations	2a	NhaC: Na+/H+ antiporter	CAT
-T60	Cations	3a	nickel_nikE: nickel import	CAT
-T107	Cations	2a	nramp: metal ion transporter	CAT
+T60	Metal	3a	nickel_nikE: nickel import	MET
+T107	Metal	2a	nramp: metal ion transporter	MET
 T1059	Cations	1b	OMP_RagA_SusC: TonB-linked SusC/RagA	CAT
 T46	Cations	2a	potassium uptake	CAT
 T59	Cations	2c	TonB family	CAT
 T58	Cations	2a	ZIP zinc/iron transport	CAT
 T245	Other	2a	putative bicarbonate transporter, IctB family	OT
-T15	Other	3d	rnf: electron transport complex	N-FIX
-T133	NH3 Nitrate	1a	amt: ammonium transporter	NI
-T48	AA peptide	2a	bcct: betaine/carnitine/choline transporter	AA-PEP
-T31	NH3 Nitrate	3a	ntr: nitrate ABC transporter	NI
-T843	Anions	3a	sulfate ABC transporter	ANI
+T15	Other	3d	rnf: electron transport complex	OT
+T133	Nitrate	1a	amt: ammonium transporter	NI
+T48	AA peptide + NH4+	2a	bcct: betaine/carnitine/choline transporter	AA-PEP
+T31	Nitrate	3a	ntr: nitrate ABC transporter	NI
+T843	Other	3a	sulfate ABC transporter	OT
 T738	Nucleoside	2a	ncs1: nucleoside transporter	NUC
 T94	Nucleoside	2a	ncs2: uracil-xanthine permease	NUC
 T1020	Nucleoside	4b	nicotinamide mononucleotide transporter PnuC	NUC
@@ -54,6 +54,21 @@ T3	Phosphate	3a	pst: phosphate ABC transporter	PI
 T115	Phosphonate	3a	phn: phosphonate ABC transporter	PO
 T312	Phosphonate	3a	phn2: phosphonate ABC transporter	PO
 T1013	Phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
-T317	Other	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
+T317	Other	1b	TonB-Xanth-Caul: TonB-dependent receptor	OT
 T457	Urea	3a	urea_arch: urea ABC transporter	NO
 T287	Urea	3a	urea_urt: urea ABC transporter	NO
+T382	Other	2a	ethanolamine permease	OT
+T16	Other	3a	ATPase-IIC_X-K: Na,H/K antiporter P-type ATPase, alpha subunit	OT
+T445	Other	2a	efflux_Bcr_CflA: drug resistance transporter, Bcr/CflA subfamily	OT
+T140	Other	1a	MIP: MIP family channel proteins	OT
+T798	Other	3a	drrA: daunorubicin resistance ABC transporter, ATP-binding protein	OT
+T69	Other	1a	mscL: large conductance mechanosensitive channel protein	OT
+T106	Metal 	2a	modC_ABC: molybdate ABC transporter, ATP-binding protein	MET
+T830	Metal 	2a	chromate efflux transporter	MET
+T847	Phosphonate	3a	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein	PO
+T635	Phosphonate	3a	PhnE: phosphonate ABC transporter, permease protein PhnE	PO
+T925	Urea	3a	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE	NO
+T581	Urea	3a	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD	NO
+T465	Urea	3a	urea_trans_UrtB: urea ABC transporter, permease protein UrtB	NO
+T248	Urea	3a	urea_ABC_UrtA: urea ABC transporter, urea binding protein	NO
+T836	Nitrate	3a	ntrB: nitrate ABC transporter, permease protein	NI
