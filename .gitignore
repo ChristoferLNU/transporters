@@ -70,3 +70,7 @@ data/transporters.xls
 deprecated/
 
 .ipynb*
+.DS_Store
+*.tsv.gz
+*.eps
+*.svg
