@@ -2,7 +2,6 @@ transporter	substrate_category	type	name	abbreviation
 T1068	AA peptide + (NH4+)	2a	cyclic peptide transporter	AA-PEP
 T534	AA peptide + (NH4+)	2a	lao: LAO/AO transport	AA-PEP
 T52	AA peptide + (NH4+)	2a	livcs: branched-chain amino acid transport	AA-PEP
-T37	AA peptide + (NH4+)	2a	potA: polyamine ABC transporter	AA-PEP
 T42	AA peptide + (NH4+)	3a	proV: glycine betaine/L-proline	AA-PEP
 T32	AA peptide + (NH4+)	2a	small oligopeptide transporter	AA-PEP
 T7	AA peptide + (NH4+)	2a	sodium/proline symporter	AA-PEP
@@ -21,7 +20,7 @@ T67	Carbohydrate	2a	NhaA: Na+/H+ antiporter	CARB
 T40	Carbohydrate	4a	PEP-protein phosphotransferase	CARB
 T388	Carbohydrate	2a	TRAP_fused: TRAP transporter	CARB
 T761	Carbohydrate	2a	TRAP_TAXI: TRAP transporter	CARB
-T12	Cations	2a	cation transport protein	CAT
+T12	Phosphate	2a	phosphate ion transport	PI
 T84	Cations	2a	cation:proton antiporter-2	CAT
 T758	Cations	3a	cbiO: cobalt ABC transporter	CAT
 T35	Metal	2a	CDF: cation transporter	MET
