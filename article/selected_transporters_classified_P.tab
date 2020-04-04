@@ -1,0 +1,11 @@
+transporter	substrate_category	type	name	abbreviation
+T12	Phosphate	2a	cation transport protein	PI
+T901	Phosphate	2a	Na/Pi-cotransporter	PI
+T3	Phosphate	3a	pst: phosphate ABC transporter	PI
+T115	Phosphonate	3a	phn: phosphonate ABC transporter	PO
+T312	Phosphonate	3a	phn2: phosphonate ABC transporter	PO
+T1013	Phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
+T847	Phosphonate	3a	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein	PO
+T635	Phosphonate	3a	PhnE: phosphonate ABC transporter, permease protein PhnE	PO
+T37	Phosphonate	3a	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT	PO
+T325	Phosphonate	3a	2-aminoethylphosphonate transport	PO

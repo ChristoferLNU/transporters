@@ -1,0 +1,20 @@
+transporter	substrate_category	type	name	abbreviation
+T1068	AA peptide	2a	cyclic peptide transporter	AA-PEP
+T534	AA peptide	2a	lao: LAO/AO transport	AA-PEP
+T52	AA peptide	2a	livcs: branched-chain amino acid transport	AA-PEP
+T37	AA peptide	2a	potA: polyamine ABC transporter	AA-PEP
+T42	AA peptide	3a	proV: glycine betaine/L-proline	AA-PEP
+T32	AA peptide	2a	small oligopeptide transporter	AA-PEP
+T7	AA peptide	2a	sodium/proline symporter	AA-PEP
+T71	AA peptide	2a	yjdL_sub1_fam: amino acid/peptide transporter	AA-PEP
+T48	AA peptide	2a	bcct: betaine/carnitine/choline transporter	AA-PEP
+T15	N-FIX	3d	rnf: electron transport complex	N-FIX
+T133	NH4	1a	amt: ammonium transporter	NH
+T31	Nitrate	3a	ntr: nitrate ABC transporter	NI
+T457	Urea	3a	urea_arch: urea ABC transporter	NO
+T287	Urea	3a	urea_urt: urea ABC transporter	NO
+T925	Urea	3a	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE	NO
+T581	Urea	3a	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD	NO
+T465	Urea	3a	urea_trans_UrtB: urea ABC transporter, permease protein UrtB	NO
+T248	Urea	3a	urea_ABC_UrtA: urea ABC transporter, urea binding protein	NO
+T836	Nitrate	3a	ntrB: nitrate ABC transporter, permease protein	NI
